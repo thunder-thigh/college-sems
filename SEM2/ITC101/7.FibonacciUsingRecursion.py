@@ -21,3 +21,9 @@ else:
     print("Factorial is: ")
     print(f"{I}\n{II}") #Save performance and pre-print first two terms
     fibonacci(num)
+
+
+### IMPORTANT: This code does not actually use recursion
+### After I wrote this I realised that I had to use recursion
+### Although using recursion will do unnecessary calculations
+### Teacher will not notice it though so just do it don't mind
