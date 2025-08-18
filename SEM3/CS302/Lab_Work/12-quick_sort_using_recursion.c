@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include"aashu.h"
+
 #define SIZE 20
 void swap(int *a, int *b){
 	int temp = *a;
@@ -61,4 +62,5 @@ int main(){
 	for (int i=0; i<SIZE; i++){
 		printf("%d, ",array[i]);
 	}
+	NEWLINE
 }

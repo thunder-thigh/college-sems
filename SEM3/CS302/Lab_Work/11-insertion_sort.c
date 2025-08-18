@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "aashu.h"
 
 #define SIZE 20
 
@@ -21,5 +21,5 @@ int main(){
 	for (temp=0; temp<SIZE; temp++){
 		printf("%d, ",array[temp]);
 	}
-	printf("\n");
+	NEWLINE
 }

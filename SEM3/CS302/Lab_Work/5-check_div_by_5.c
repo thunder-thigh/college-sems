@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int is_divisible_by_5(int num){
+int is_divisible_by_5_without_percentage(int num){
 		num = abs(num);
 		int last_digit=num;
 		while(last_digit>=10){
@@ -11,11 +11,21 @@ int is_divisible_by_5(int num){
 		else return 0;
 }
 
+int is_divisible_by_5(int num){
+		num = abs(num);
+				
+		if (num%5==0) return 1;
+		else return 0;
+}
+
 void main(){
 		int number;
 		printf("Enter an integer: ");
 		scanf("%d", &number);
 
+		if(is_divisible_by_5_without_percentage(number)) printf("%d is divisible by 5\n", number);
+		else printf("%d is not divisible by 5\n", number);
+		
 		if(is_divisible_by_5(number)) printf("%d is divisible by 5\n", number);
 		else printf("%d is not divisible by 5\n", number);
 }
