@@ -46,7 +46,7 @@ void quicksort(int array[], int start, int end){
 		if (left<=right){
 		swap(&array[left], &array[right]);
 		left++;
-		right++;
+		right--;
 		}
 	}
 	quicksort (array, start, right);
