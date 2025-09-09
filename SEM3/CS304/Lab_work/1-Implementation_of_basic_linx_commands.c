@@ -81,4 +81,23 @@
 //22. mount = mount avaibale partions at a location within the filesystem
 //Syntax: mount [DEVICE] MOUNT_POINT
 
-//23. 
+//23. mkdir = creates a directory under active location.
+//Syntax: mkdir <file>
+
+//24. mmd, mmount, mmove = Interact with MSDOS drives. Actions like making a directory, mounting a disk, move directories
+
+//25. rmdir = remove a directory from the filesystem, i.e. delete it
+//Syntax: rmdir [DIRECTORY] [OPTIONS]
+
+//26. sudo/doas/su = standard utilities to perform ativites with privelage level of super user. This requires being in the sudoers group for sudo, being inthe root user wheel for doas, and knowing password to the root user for su
+//Syntax: [sudo/su/doas] [COMMAND]
+
+//27. umount = unmount device from specifiec mount point.
+//Syntax: umount [OPTIONS] <source> | <directory>
+
+//28. vi/vim = brings up the standard and quite old vi or the vi improved text editor.
+
+//29. whoami = list currect user underwhom shell is running
+
+//30. zforce = force '.gz' extension on all gzip files.
+//Syntax: zforce [name...]
