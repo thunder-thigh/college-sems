@@ -57,9 +57,8 @@ int main() {
         scanf("%d %d", &items[i].value, &items[i].weight);
     }
 
-    printf("Enter knapsack capacity: ");
+    printf("Enter knapsack capability\n");
     scanf("%d", &capacity);
-
     double maxValue = fractionalKnapsack(capacity, items, n);
 
     printf("Maximum value in knapsack = %.2lf\n", maxValue);

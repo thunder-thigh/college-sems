@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "aashu.h"				//MY CUSTOM HEADER FILE FOR FUNCTIONS
 
 #define SIZE 10
 #define DE ;
